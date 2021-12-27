@@ -27,15 +27,45 @@
    text-align: center;
    word-spacing: 0.02px; 
    padding: 0.8rem;
+   color: #fff;
 }
 .designation {
     font-size: 1rem;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 0.5rem;
+    color: #fff;
 }
 .description {
     font-size: 0.75rem;
     text-align: center;
     padding: 1rem;
+    color: #fff;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.social-media li{
+    list-style: none;
+}
+.skills .skills-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+.skill-name {
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 0.5rem;
+}
+.skills .progress-bar {
+    border: 1px white solid;
+    height: 4px;
+    background-color: white;
 }
