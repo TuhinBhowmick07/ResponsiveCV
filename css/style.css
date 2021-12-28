@@ -25,7 +25,7 @@
    font-weight: 700;
    text-transform: uppercase;
    text-align: center;
-   word-spacing: 0.02px; 
+   letter-spacing: 0.02px; 
    padding: 0.8rem;
    color: #fff;
 }
@@ -68,4 +68,22 @@
     border: 1px white solid;
     height: 4px;
     background-color: white;
+}
+.right-main-content {
+    padding: 2rem 3rem 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+@media (max-width: 674px) {
+    .main-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+        min-height: 1000px;
+    }
 }
